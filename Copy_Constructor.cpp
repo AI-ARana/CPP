@@ -1,3 +1,12 @@
+/*If we have an object of a class and we want to create its copy in a new declared object 
+of the same class, then a copy constructor is used. The compiler provides each class 
+a default copy constructor and users can define it also. It takes a single argument 
+which is an object of the same class.*/
+
+#include<iostream>
+/*Including <bits/stdc++.h> is a non-standard and non-portable way to include all 
+the standard C++ libraries in one go. It's not recommended for production code 
+because it's not guaranteed to work across different compilers and environments.*/
 #include <bits/stdc++.h>
 using namespace std;
 class Student {

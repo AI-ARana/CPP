@@ -1,3 +1,8 @@
+/*Parameterized constructor is used to initialize data members with the values 
+provided by the user. This constructor is basically the upgraded version of 
+the default constructor. We can define more than one parameterized constructor 
+according to the need of the user, but we have to follow the rules of 
+the function overloading, like a different set of arguments must be there for each constructor.*/
 #include <bits/stdc++.h>
 using namespace std;
 class Student {
