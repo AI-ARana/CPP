@@ -13,4 +13,4 @@ int main()
     for (list<int>::iterator i=list1.begin(); i!=list1.end(); i++)
        cout << *i << " ";      
     cout << endl;     
-}
+} 
