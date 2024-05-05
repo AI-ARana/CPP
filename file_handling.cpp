@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
     // Read from a file
-    ifstream inputFile("input.txt");
+    ifstream inputFile("example.txt");
     if (!inputFile) {
         cerr << "Error: Cannot open input file." << endl;
         return 1;
