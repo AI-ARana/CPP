@@ -27,7 +27,19 @@
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "windows-msvc-x64"
-        }
+        },
+        {
+            "name": "MinGW",
+            "compilerPath": "c:\\MinGW\\bin\\g++.exe",
+            "intelliSenseMode": "windows-gcc-x64",
+            "includePath": [
+              "${workspaceFolder}/**"
+            ],
+            "defines": ["_DEBUG", "UNICODE"],
+            "cppStandard": "c++17"
+          }
     ],
     "version": 4
 }
+
+
