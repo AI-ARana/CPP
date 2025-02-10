@@ -105,6 +105,7 @@ int postDecrement(int& a) {
 int main() {
     int a = 5, b = 3;
     int c;
+    system("cls");
 
     // Arithmetic operators
     c = add(a, b);
