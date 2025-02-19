@@ -20,6 +20,7 @@ class Student {  // Class Student
 int main() {
     // s1 is an object of class Student
     Student s1;
+    system("cls");
     s1.set_data("Anurag",29,95);
     s1.print_data();
 }
