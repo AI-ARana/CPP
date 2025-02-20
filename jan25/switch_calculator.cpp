@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     int choice;
     double num1, num2, result;
-    int n, fact = 1;  // For factorial
+    int n,fact;
     system("cls");
     do{
     // Display menu
@@ -107,11 +107,13 @@ int main() {
             break;
 
         case 8:  // Factorial
+            
             cout << "Enter a positive integer: ";
             cin >> n;
             if (n < 0) {
                 cout << "Error! Factorial of a negative number doesn't exist.\n";
             } else {
+                fact=1;
                 for (int i = 1; i <= n; i++) {
                     fact *= i;
                 }
