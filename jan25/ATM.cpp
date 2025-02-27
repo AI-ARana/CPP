@@ -18,12 +18,12 @@ int main() {
         cin >> choice;
 
         // Handle input errors
-        if (cin.fail()) {
-            cin.clear();  // Reset the cin state
-            cin.ignore(1000, '\n');  // Ignore incorrect input
-            cout << "Invalid input! Please enter a number.\n";
-            continue;  // Restart the loop
-        }
+        // if (cin.fail()) {
+        //     cin.clear();  // Reset the cin state
+        //     cin.ignore(1000, '\n');  // Ignore incorrect input
+        //     cout << "Invalid input! Please enter a number.\n";
+        //     continue;  // Restart the loop
+        // }
 
         switch (choice) {
             case 1:  // Check balance
