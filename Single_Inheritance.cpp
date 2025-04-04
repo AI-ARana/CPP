@@ -6,7 +6,7 @@ class Vehicle {
         cout << "This is a Vehicle" << endl; 
     } 
 }; 
-// sub class derived from two base classes 
+// sub class derived from base classes 
 class Car: public Vehicle { }; 
 
 // main function 
